@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+<html>
+<body>
+    <p id="demo"></p>
+    <script>
+    function Prime(num){
+    alert("數字是"+num);
+    for(var i=2;i<num;i++){
+        if (num%i==0){
+            return ("不是質數");
+        }
+    }
+    return ("是質數");
+    }
+    while(1){
+        var n=prompt("輸入數字")
+        alert(Prime(n));
+    }
+    </script>
+</body>
+</html>
